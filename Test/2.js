@@ -1,4 +1,4 @@
-/* var objet={
+var objet={
     name:"Krishna",
     home:{
         place:"nana",
@@ -23,4 +23,3 @@ console.log(objet)
 
 
 
- */
