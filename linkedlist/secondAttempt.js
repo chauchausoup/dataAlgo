@@ -40,6 +40,7 @@ class LinkedList{
 }
 
 
+
 var ll = new LinkedList();
 ll.nascentInsert(1);
 ll.insertLast(2);

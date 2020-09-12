@@ -1,6 +1,11 @@
+function fibo(n){
+    if(n<=1){
+        console.log(1)
+        return;
+    }else{
+        console.log(n)
+    }
 
-var a="123123"
-
-console.log(parseInt(a).split())
-
-
+    return fibo(n-1)+fibo(n)
+}
+fibo(5)
