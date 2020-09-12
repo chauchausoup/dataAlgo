@@ -1,11 +1,3 @@
-function fibo(n){
-    if(n<=1){
-        console.log(1)
-        return;
-    }else{
-        console.log(n)
-    }
+for(var i = 0 ; i < n ; i ++ ){
 
-    return fibo(n-1)+fibo(n)
 }
-fibo(5)
