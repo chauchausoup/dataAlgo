@@ -20,19 +20,19 @@ fibonacci(9); */
 
 //using recursion
 
-function fibo(n){
-    if(n==0 || n==1){
-    // console.log(1)
-        return 1;
-    }else{  
-    console.log(n)       
-    return fibo(n-1)+fibo(n-2);
+/* function fibo(n){
+    var b = [];
+    if(n==0 || n==1) return n;
+   var a= fibo(n-1)+fibo(n-2);     
+   console.log(a)
 }
 
-}
-console.log(fibo(5))
+
+fibo(3)
+ */
 
 
 
 
 
+ 
