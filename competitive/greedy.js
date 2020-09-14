@@ -56,3 +56,4 @@ function minimumAbsoluteDifference(arr) {
     return min;
 
 }
+

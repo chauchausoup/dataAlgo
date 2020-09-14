@@ -1,3 +1,1 @@
-var a=[1,2,3];
-
-console.log(Math.min(...a))
+console.log((3**0)*3)
