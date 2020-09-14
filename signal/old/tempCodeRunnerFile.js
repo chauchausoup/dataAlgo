@@ -1,8 +1,10 @@
+var str=["a","b","c"];
+var min ="z"
+str.forEach((e,i)=>{
+    if(e<min){
+        min=e
+    }
+})
 
-for(var i =0 ; i<ar.length;i++){
-    //console.log(special)
-    if(!special.includes(ar[i])&& arT[i]){
-        special.push(ar[i])
-        console.log(special)
 
-    }}
+console.log(min)
