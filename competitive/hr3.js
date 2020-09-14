@@ -10,13 +10,13 @@ function serviceLane(cases,width) {
 
         console.log(width)
        // var p =[];
-        var v=exit-entry+1;
+        var v=exit+1;
        
        var p = width.slice(entry,v)
         console.log(p);
 
 
-        var m =Math.min(...[p])
+        var m =Math.min(...p)
         console.log(m)
         return m ;
 
@@ -46,6 +46,6 @@ for(var i = 0 ;i<wi.length;i++){
 } */
 
 
-var a=[1,2,3];
+/* var a=[1,2,3];
 
-console.log(Math.min(...a))
+console.log(Math.min(...a)) */
